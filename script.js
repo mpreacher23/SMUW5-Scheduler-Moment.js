@@ -1,8 +1,8 @@
 // variables calls for html
 let timeBlocks = $(".time-block");
-let hours = $(".hour");
-let timeRows = $("#timesheet div");
 let textAreas = $(".textarea");
+let timeRows = $("#timesheet div");
+let hours = $(".hour");
 
 let getCurrentTime = function () {
     return moment().clone();
